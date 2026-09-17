@@ -12,8 +12,9 @@ sequence = list(range(10000))
 
 start_time = time.time()
 dot_product = 0
-for i in range(len(sequence)):
-    dot_product += sequence[i] * sequence[i]
+for i in range(100):
+    for j in range(len(sequence)):
+        dot_product += sequence[j] * sequence[j]
 end_time = time.time()
 
 execution_time = end_time - start_time
@@ -30,7 +31,8 @@ import time
 sequence = list(range(10000))
 
 start_time = time.time()
-dot_product = sum(x * x for x in sequence)
+for i in range(100):
+    dot_product = sum(x * x for x in sequence)
 end_time = time.time()
 
 execution_time = end_time - start_time
@@ -48,7 +50,8 @@ import time
 sequence = np.arange(10000)
 
 start_time = time.time()
-dot_product = np.sum(sequence * sequence)
+for i in range(100):
+    dot_product = np.sum(sequence * sequence)
 end_time = time.time()
 
 execution_time = end_time - start_time
@@ -65,7 +68,8 @@ import time
 sequence = np.arange(10000)
 
 start_time = time.time()
-dot_product = np.dot(sequence, sequence)
+for i in range(100):
+    dot_product = np.dot(sequence, sequence)
 end_time = time.time()
 
 execution_time = end_time - start_time
