@@ -18,5 +18,8 @@
         "programming-profiling-time-variability"
     ],
     "related": [
+    ],
+    "python_packages": [
+        "numpy"
     ]
 }
