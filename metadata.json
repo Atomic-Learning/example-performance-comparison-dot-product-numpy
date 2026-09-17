@@ -1,22 +1,22 @@
 {
-    "title": "",
-    "slug": "",
-    "description": "",
+    "title": "Example: Performance Comparison of Dot Product with and without NumPy",
+    "slug": "example-performance-comparison-dot-product-numpy",
+    "description": "A comparison of calculating the dot product of two vectors without using Numpy and using NumPy.",
     "authors": [
-        "",
-        ""
+        "chris-cooling",
+        "giorgia-del-missier"
     ],
     "tags": [
-        "",
-        ""
+        "python",
+        "numpy"
     ],
-    "duration": 0,
+    "duration": 5,
     "prerequisites": [
-        "",
-        ""
+        "maths-vector-dot-product",
+        "numpy-dot",
+        "numpy-arange",
+        "programming-profiling-time-variability"
     ],
     "related": [
-        "",
-        ""
     ]
 }
