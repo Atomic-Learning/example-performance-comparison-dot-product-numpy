@@ -10,7 +10,7 @@
         "python",
         "numpy"
     ],
-    "duration": 5,
+    "duration": 7,
     "prerequisites": [
         "maths-vector-dot-product",
         "numpy-dot",

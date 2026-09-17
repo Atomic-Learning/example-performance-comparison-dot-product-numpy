@@ -75,3 +75,9 @@ end_time = time.time()
 execution_time = end_time - start_time
 print("Execution time: ", execution_time, "seconds")
 ```
+
+# Discussion
+
+You should have noticed that the first accumulator method was slower, and both NumPy methods were significantly faster than the native Python implementation, with the `np.dot()` approach being the fastest. This is because the NumPy operations are written in highly optimized C code which is designed to efficiently process arrays of data.
+
+The `np.dot()` approach is also arguably the most readable and concise way to calculate the dot product, making it a preferred choice in many scenarios.
