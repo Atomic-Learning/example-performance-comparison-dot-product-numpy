@@ -15,7 +15,10 @@
         "maths-vector-dot-product",
         "numpy-dot",
         "numpy-arange",
-        "programming-profiling-time-variability"
+        "programming-profiling-time-variability",
+        "programming-accumulator-pattern",
+        "python-range-in-for-loops",
+        "python-incrementation-operators"
     ],
     "related": [
     ],
