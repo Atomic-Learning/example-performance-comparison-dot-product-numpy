@@ -5,7 +5,7 @@ In this page, we will compare the performance of four different methods of calcu
 The most basic method is to use the accumulator pattern to manually calculate the dot product by iterating through the sequence and summing the products of corresponding elements.
 
 ```py-cell
-from time import time
+import time
 
 # Don't worry if you're not familiar with this method or creating a list from a range
 sequence = list(range(10000))
