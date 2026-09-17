@@ -25,7 +25,7 @@ print("Execution time: ", execution_time, "seconds")
 This is a much more advanced method of calculating the dot product using a generator expression inside the `sum` function. Don't worry if you don't fully understand the code - the important thing to know is that this is one of the most efficient ways fo calculating the dot product of a number with itself using native Python.
 
 ```py-cell
-from time import time
+import time
 
 sequence = list(range(10000))
 
@@ -43,7 +43,7 @@ This method uses NumPy to perform element-wise multiplication of the sequence wi
 
 ```py-cell
 import numpy as np
-from time import time
+import time
 
 sequence = np.arange(10000)
 
@@ -60,7 +60,7 @@ print("Execution time: ", execution_time, "seconds")
 This method uses the built-in `np.dot` function to calculate the dot product directly.
 ```py-cell
 import numpy as np
-from time import time
+import time
 
 sequence = np.arange(10000)
 
